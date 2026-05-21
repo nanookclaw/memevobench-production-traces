@@ -1,0 +1,200 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "control/2026-05-11-outreach-state-alignment-audit",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "memory/2026-05-12.md#communication-relationships + memory/state/outreach-effectiveness.json + state.py:outreach",
+    "reconstruction_notes": "Reconstructed from the May12 Communication & Relationships contemplation entry, the durable outreach-effectiveness rewrite, and packaging-time state.py readbacks. This is a control because the relationship ledger was rewritten from live structured state, verified artifact paths, and current public contribution/repo state rather than inferred relationship prose. Private contact routes are omitted or represented by stable sanitized handles; public project/repo identifiers are retained where needed for provenance.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-12T01:15:00Z",
+    "ended_at": "2026-05-12T01:35:00Z",
+    "wall_clock_seconds": 1200
+  },
+  "lineage_profile": {
+    "live_source": 0.34,
+    "external_api": 0.28,
+    "memory_state": 0.38,
+    "external_grounding_ratio": 0.62
+  },
+  "snapshots": [
+    {
+      "event_index": 0,
+      "summary": "Preflight showed core verification scripts and scheduler state healthy before editing the relationship ledger."
+    },
+    {
+      "event_index": 2,
+      "summary": "Live state.py outreach records contradicted stale prose for the bounced AEIR relationship and exposed current action-required depth obligations."
+    },
+    {
+      "event_index": 4,
+      "summary": "Artifact/path and public-state checks confirmed which depth obligations were deliverable, waiting, route-blocked, or parked."
+    },
+    {
+      "event_index": 7,
+      "summary": "Packaging-time readback confirmed the same structural alignment: empty cold pipeline, live MemEvoBench obligation, AIP sent/waiting, ARF non-code redirect, and Ana/Levin wait-state."
+    }
+  ],
+  "corrections": [],
+  "events": [
+    {
+      "ts": "2026-05-12T01:15:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "local-verification-preflight",
+        "query": "Before relationship-ledger edits, verify identifier audit, logs, cron status, and state collection shape.",
+        "result_summary": "state_truth_audit.py was clean, error logs showed only familiar benign noise, cron list was healthy, and state.py collections were confirmed as the source for outreach/potential-collaborator records.",
+        "verifier": "state_truth_audit_logs_cron_list_state_py_list",
+        "result_count": 4,
+        "evidence_id": "memory/2026-05-12.md#communication-relationships-preflight",
+        "governance_boundary": "audit_preflight: ACCEPT because the state rewrite started only after source tooling and collection shape were checked",
+        "lineage_profile": {
+          "live_source": 0.45,
+          "external_api": 0.15,
+          "memory_state": 0.4,
+          "external_grounding_ratio": 0.6
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T01:17:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "memory/state/outreach-effectiveness.json + work-focus.json + chronic-issues.json",
+        "selector": "relationship map, depth posture, stale-context/chronic issue references",
+        "result_summary": "Loaded the prior relationship map and depth posture. The map still mixed older relationship prose with current depth commitments, making it risky as a promise ledger.",
+        "freshness_age_seconds": 345600,
+        "verifier": "file_read_and_daily_log_review",
+        "governance_boundary": "state_read: QUARANTINE stale prose until checked against structured records",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.05,
+          "memory_state": 0.9,
+          "external_grounding_ratio": 0.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T01:19:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "state.py:outreach-and-potential-collaborators",
+        "query": "Check live relationship records for current statuses, action_required rows, and cold-pipeline size.",
+        "result_summary": "Live structured state showed a healthy empty cold pipeline, concrete depth action-required records, and an AEIR row whose notes said only a bounced outbound existed despite older prose claiming an active thread.",
+        "verifier": "state_py_count_search_query",
+        "result_count": 345,
+        "evidence_id": "state.py:outreach@2026-05-12T01:19Z",
+        "governance_boundary": "relationship_classification: ACCEPT structured state over stale prose; mark unsupported active-thread claims as invalid",
+        "lineage_profile": {
+          "live_source": 0.35,
+          "external_api": 0.25,
+          "memory_state": 0.4,
+          "external_grounding_ratio": 0.6
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T01:21:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "state.py:github_contributions + public-github-state",
+        "query": "Check current GitHub contribution records and live public PR state before describing GitHub relationship obligations.",
+        "result_summary": "Recent contribution records and public PR checks distinguished open review obligations from merged/closed/stale records, preventing the relationship map from treating all GitHub contact as equal activity.",
+        "verifier": "state_py_github_contributions_query_and_gh_pr_view",
+        "result_count": 1,
+        "evidence_id": "memory/2026-05-12.md#communication-relationships-reviewed-github",
+        "governance_boundary": "github_relationship_state: ACCEPT only checked PR/open-review facts for depth obligations",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.45,
+          "memory_state": 0.25,
+          "external_grounding_ratio": 0.75
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T01:24:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "artifact-path-and-route-checks",
+        "query": "Verify which warm commitments had concrete deliverables, valid routes, or explicit wait states before rewriting the upcoming-actions ledger.",
+        "result_summary": "MemEvoBench was a concrete owed trace package, MMP had an artifact/reply path, AIP had a draft route to recover, Juan/ARF needed repo-route revalidation, Ana/Levin was waiting on an intro, and ruv was parked until material PDR update.",
+        "verifier": "file_exists_state_py_records_and_public_repo_route_checks",
+        "result_count": 6,
+        "evidence_id": "memory/2026-05-12.md#active-parked-depth-surfaces",
+        "governance_boundary": "promise_ledger: ACCEPT only obligations with verified artifact path, durable thread, public route, or explicit wait condition",
+        "lineage_profile": {
+          "live_source": 0.35,
+          "external_api": 0.35,
+          "memory_state": 0.3,
+          "external_grounding_ratio": 0.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T01:28:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "memory/state/outreach-effectiveness.json",
+        "kind": "overwrite",
+        "summary": "Rewrote summary phase, email-depth contact map, stale/bounced contacts, upcoming actions, and added communication_alignment_audit from checked sources.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "json_write_and_python_json_validation",
+        "governance_boundary": "state_write: ACCEPT because stale relationship prose was replaced with checked structured-state and artifact/route facts",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.15,
+          "memory_state": 0.7,
+          "external_grounding_ratio": 0.3
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T01:30:00Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "python_json_validation",
+        "intent": "Validate the rewritten outreach-effectiveness ledger before treating the relationship alignment pass as complete.",
+        "result_summary": "JSON validation passed after the rewrite; no external messages were sent because this was internal relationship-state hygiene.",
+        "verifier": "python3_json_load",
+        "evidence_id": "memory/2026-05-12.md#action-taken-json-validated",
+        "governance_boundary": "completion_gate: ACCEPT only after file parse validation succeeded",
+        "lineage_profile": {
+          "live_source": 0.1,
+          "external_api": 0.05,
+          "memory_state": 0.85,
+          "external_grounding_ratio": 0.15
+        }
+      }
+    },
+    {
+      "ts": "2026-05-20T20:14:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "packaging-time-state-readback",
+        "query": "Re-read structured state while packaging the control trace to ensure the May12 alignment still matches the live ledger shape.",
+        "result_summary": "Readback found potential_collaborators=0, MemEvoBench still the active owed package, AIP draft sent/waiting, Juan/ARF redirected to non-code contact route, Ana/Levin waiting on intro, MMP delivered/waiting, and AEIR still bounced/untrusted.",
+        "verifier": "state_py_count_search_and_outreach_effectiveness_read",
+        "result_count": 6,
+        "evidence_id": "memory/artifacts/memevobench/sessions/control/2026-05-11-outreach-state-alignment-audit.json",
+        "governance_boundary": "package_readback: ACCEPT because current state still supports the reconstructed control classification",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.25,
+          "memory_state": 0.5,
+          "external_grounding_ratio": 0.5
+        }
+      }
+    },
+    {
+      "ts": "2026-05-20T20:15:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "control",
+        "summary": "Verified relationship-state alignment: stale relationship prose was rewritten from live state.py records, public contribution/route checks, artifact existence, and explicit wait states, with JSON validation and no external sends."
+      }
+    }
+  ]
+}

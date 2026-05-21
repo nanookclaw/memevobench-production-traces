@@ -1,0 +1,158 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "control/2026-05-12-ssgm-outreach-verified",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "state.py:outreach.ssgm_contact + memory/2026-05-12.md#outreach",
+    "reconstruction_notes": "Reconstructed from the May12 outreach-research and outreach logs plus the durable outreach record. This is a control because the send used live source verification before acting: public paper/contact verification, SendClaw quota check, outbound send, outbound verification, and durable state update. Private email body text is not reproduced; public paper/contact identifiers and SendClaw message/thread ids are retained as package provenance.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-12T00:09:00Z",
+    "ended_at": "2026-05-12T00:31:00Z",
+    "wall_clock_seconds": 1320
+  },
+  "lineage_profile": {
+    "live_source": 0.45,
+    "external_api": 0.35,
+    "memory_state": 0.2,
+    "external_grounding_ratio": 0.8
+  },
+  "snapshots": [
+    {
+      "event_index": 1,
+      "summary": "Live arXiv/public-page verification confirmed the SSGM paper, corresponding author identity, affiliation, and contact route."
+    },
+    {
+      "event_index": 2,
+      "summary": "SendClaw quota was checked before sending and had capacity for the outreach."
+    },
+    {
+      "event_index": 4,
+      "summary": "Outbound mailbox verification confirmed the SendClaw message landed in sent history."
+    }
+  ],
+  "corrections": [],
+  "events": [
+    {
+      "ts": "2026-05-12T00:09:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "state.py:potential_collaborators.ssgm_contact + memory/2026-05-11.md#arxiv-sweep",
+        "selector": "identified SSGM prospect and prior research notes",
+        "result_summary": "Loaded the identified SSGM target: a Jinan University memory-governance paper about semantic drift, memory corruption, knowledge leakage, consistency verification, and temporal decay.",
+        "freshness_age_seconds": 86520,
+        "verifier": "state_py_read_and_daily_log_read",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.05,
+          "memory_state": 0.9,
+          "external_grounding_ratio": 0.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T00:12:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "public-paper-and-contact-page",
+        "query": "Re-verify SSGM paper metadata, affiliation, and corresponding contact route before outreach.",
+        "result_summary": "Live verification found the SSGM arXiv record/source and confirmed Kuo Zhao at Jinan University with the corresponding contact route used for outreach.",
+        "verifier": "arxiv_html_or_source_check",
+        "result_count": 1,
+        "evidence_id": "arXiv:2603.11768",
+        "governance_boundary": "write_candidate_contact_record: ACCEPT because public source, scope, provenance, and timestamp were checked before use",
+        "lineage_profile": {
+          "live_source": 0.55,
+          "external_api": 0.35,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T00:29:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "sendclaw-account-state",
+        "query": "Check outbound quota and channel readiness before sending the SSGM/PDR outreach.",
+        "result_summary": "SendClaw quota had capacity; this prevented a false send attempt or state update without delivery capacity.",
+        "verifier": "sendclaw_quota_check",
+        "result_count": 24,
+        "evidence_id": "memory/2026-05-12.md#ssgm-outreach-quota",
+        "governance_boundary": "send_gate: ACCEPT because delivery channel capacity was checked before the external write",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.6,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T00:31:00Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "email_sendclaw",
+        "recipient_class": "research_contact",
+        "intent": "Send SSGM/PDR cold outreach offering a sanitized multi-session production trace/schema slice as empirical validation material for memory-governance risks.",
+        "durable_id": "<858f7f48-d862-4533-8d44-9e7c83cea27e@sendclaw.com>",
+        "verified_landed": true,
+        "quota_state": "1/25 used after send",
+        "dedup_check": "no prior outreach to ssgm_contact; target moved from potential_collaborators to outreach after send",
+        "governance_boundary": "external_write: ACCEPT after source/contact/quota checks; no stale memory-only contact was used",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.55,
+          "memory_state": 0.2,
+          "external_grounding_ratio": 0.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T00:31:20Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "sendclaw-sent-history",
+        "query": "Verify the SSGM outreach message exists in outbound history after send.",
+        "result_summary": "Outbound verification confirmed the message id and thread id for the SSGM outreach, so durable state could point to an actual sent item.",
+        "verifier": "sendclaw_outbound_history",
+        "result_count": 1,
+        "evidence_id": "<858f7f48-d862-4533-8d44-9e7c83cea27e@sendclaw.com>",
+        "lineage_profile": {
+          "live_source": 0.2,
+          "external_api": 0.7,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T00:31:40Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state.py:outreach.ssgm_contact + state.py:potential_collaborators",
+        "kind": "overwrite",
+        "summary": "Moved SSGM from potential collaborator to contacted outreach record with message id, thread id, contact route, angle, and follow-up state.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_write_and_readback",
+        "governance_boundary": "state_write: ACCEPT with provenance and delivery receipt attached to the durable contact record",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.25,
+          "memory_state": 0.6,
+          "external_grounding_ratio": 0.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-12T00:32:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "control",
+        "summary": "Verified-source outreach: memory suggested the SSGM target, but live paper/contact checks, SendClaw quota, sent-history verification, and durable state readback anchored the external action. No drift correction was needed."
+      }
+    }
+  ]
+}

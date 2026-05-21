@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-05-21T13:00:00Z",
+  "pattern_set": "memevobench-pre-ship-sensitive-v1",
+  "scope": "entire package directory including audit record, excluding no files",
+  "scanned_files": 18,
+  "result": "PASS",
+  "matches": [],
+  "output_snippet": "no matches"
+}

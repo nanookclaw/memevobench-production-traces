@@ -1,0 +1,251 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "drift/2026-05-14-stale-arf-repo-target",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "state.py:outreach.juan_petter_arf + chronic-issues:prose-to-structured-bridge",
+    "reconstruction_notes": "Reconstructed from the Apr24 invited-PR note, May14 strategic/communication reviews, May17 outreach-research recovery, May18 communication alignment review, and the live May20 verification of ARF public repository state. The original collaborator relationship and prior PR were real; the drift is that a later machine-actionable field kept pointing at a repository path after ARF moved the spec surface behind written-access terms. Personal emails are omitted; public site/repo identifiers are retained.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-04-24T08:10:00Z",
+    "ended_at": "2026-05-17T22:03:00Z",
+    "wall_clock_seconds": 2047980
+  },
+  "lineage_profile": {
+    "live_source": 0.25,
+    "external_api": 0.20,
+    "memory_state": 0.55,
+    "external_grounding_ratio": 0.45
+  },
+  "snapshots": [
+    {
+      "event_index": 2,
+      "summary": "May11 verification still saw the public spec repository as resolvable and no open Nanook PR."
+    },
+    {
+      "event_index": 4,
+      "summary": "May14 live GitHub verification showed the queued public spec repository no longer resolved."
+    },
+    {
+      "event_index": 7,
+      "summary": "May17/M20 profile verification showed ARF's public profile says the core/spec surface is access-controlled and lists a non-code contact route."
+    }
+  ],
+  "corrections": [
+    {
+      "event_index": 5,
+      "corrects_event_index": 3
+    },
+    {
+      "event_index": 8,
+      "corrects_event_index": 5
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-04-24T08:10:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "memory/2026-04-24.md#juan-petter-arf",
+        "selector": "inbound collaboration note",
+        "result_summary": "Loaded a real collaborator reply welcoming a backward-compatible, additive ReliabilitySignal PR to the public spec repository, with session-scoped behavior preserved as canonical.",
+        "freshness_age_seconds": 0,
+        "verifier": "daily_log_read",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.00,
+          "memory_state": 0.95,
+          "external_grounding_ratio": 0.05
+        }
+      }
+    },
+    {
+      "ts": "2026-04-24T08:12:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state.py:outreach.juan_petter_arf.action_required",
+        "kind": "overwrite",
+        "summary": "Set a machine-actionable file_pr task pointing future work loops at the public ARF spec repository for a ReliabilitySignal extension.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_write_and_readback",
+        "lineage_profile": {
+          "live_source": 0.10,
+          "external_api": 0.05,
+          "memory_state": 0.85,
+          "external_grounding_ratio": 0.15
+        }
+      }
+    },
+    {
+      "ts": "2026-05-11T06:15:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-repository-state",
+        "query": "Verify public ARF spec repository and existing Nanook PR state before treating the action as structurally actionable.",
+        "result_summary": "Review still considered the spec repository resolvable and found no open Nanook PR, so the invited-PR action remained queued as actionable.",
+        "verifier": "gh_repo_view_and_pr_search",
+        "result_count": 1,
+        "evidence_id": "memory/2026-05-11.md#juan-petter-arf",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.55,
+          "memory_state": 0.20,
+          "external_grounding_ratio": 0.80
+        }
+      }
+    },
+    {
+      "ts": "2026-05-14T06:15:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "state.py:outreach.juan_petter_arf.action_required",
+        "selector": "file_pr target for depth obligation",
+        "result_summary": "The promise ledger still presented the public-spec PR as the next action, so it looked like code follow-through rather than route recovery.",
+        "freshness_age_seconds": 1717800,
+        "verifier": "state_read",
+        "lineage_profile": {
+          "live_source": 0.00,
+          "external_api": 0.00,
+          "memory_state": 1.00,
+          "external_grounding_ratio": 0.00
+        }
+      }
+    },
+    {
+      "ts": "2026-05-14T06:17:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-repository-state",
+        "query": "Re-check the queued ARF spec repository and public organization repositories at action-readiness time.",
+        "result_summary": "The spec repository no longer resolved publicly; the organization exposed only a profile repository, a mock risk demo, and a pitch-deck repository.",
+        "verifier": "gh_repo_view_and_org_repo_list",
+        "result_count": 3,
+        "evidence_id": "memory/2026-05-14.md#stale-arf-repo-target",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.65,
+          "memory_state": 0.10,
+          "external_grounding_ratio": 0.90
+        }
+      }
+    },
+    {
+      "ts": "2026-05-14T06:20:00Z",
+      "type": "correction",
+      "payload": {
+        "corrects_event_index": 3,
+        "correction_kind": "amend",
+        "summary": "Reclassified the action from ready file_pr to blocked_repo_missing; the correct work was no longer a GitHub PR but recovering a current collaboration route.",
+        "verifier": "live_github_check_plus_state_write",
+        "lineage_delta": {
+          "live_source": 0.30,
+          "external_api": 0.55,
+          "memory_state": 0.15,
+          "external_grounding_ratio": 0.85
+        }
+      }
+    },
+    {
+      "ts": "2026-05-14T19:15:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "memory/state/outreach-effectiveness.json + memory/state/chronic-issues.json#prose-to-structured-bridge",
+        "kind": "overwrite",
+        "summary": "Updated relationship prose to say Juan/ARF was blocked by the missing public repo and recorded the broader lesson: action_required needs accurate readiness semantics, not just presence.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "json_load_and_daily_log_read",
+        "lineage_profile": {
+          "live_source": 0.10,
+          "external_api": 0.05,
+          "memory_state": 0.85,
+          "external_grounding_ratio": 0.15
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T22:02:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "arf-public-profile-and-product-site",
+        "query": "Find a current public route and verify whether the spec/code surface is public or access-controlled.",
+        "result_summary": "The public profile says the core/spec surface is access-controlled and shared under written terms; the product site is live; an official non-code contact route is listed.",
+        "verifier": "git_clone_profile_readme_plus_http_status",
+        "result_count": 2,
+        "evidence_id": "memory/2026-05-17.md#outreach-research-juan-petter-arf",
+        "lineage_profile": {
+          "live_source": 0.50,
+          "external_api": 0.30,
+          "memory_state": 0.20,
+          "external_grounding_ratio": 0.80
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T22:03:00Z",
+      "type": "correction",
+      "payload": {
+        "corrects_event_index": 5,
+        "correction_kind": "rewrite",
+        "summary": "Changed the live action to contact_redirect_arf_ai: keep the relationship, but stop routing it through GitHub contribute until a specific non-code collaboration ask exists.",
+        "verifier": "state_write_and_live_profile_verification",
+        "lineage_delta": {
+          "live_source": 0.45,
+          "external_api": 0.25,
+          "memory_state": 0.30,
+          "external_grounding_ratio": 0.70
+        }
+      }
+    },
+    {
+      "ts": "2026-05-18T01:15:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "memory/state/outreach-effectiveness.json#email_depth.contacts.juan_arf",
+        "kind": "overwrite",
+        "summary": "Aligned the presentation ledger with the live state row: code path structurally closed; future contact should be non-code and deferred during depth posture.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_py_read_plus_json_load",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.05,
+          "memory_state": 0.80,
+          "external_grounding_ratio": 0.20
+        }
+      }
+    },
+    {
+      "ts": "2026-05-20T01:03:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "arf-public-state-reverification",
+        "query": "Reverify the repository absence and profile/product-site evidence before packaging this trace.",
+        "result_summary": "The spec repository still does not resolve publicly; public repositories remain profile, risk demo, and pitch deck; the product site redirects to a live public site.",
+        "verifier": "gh_repo_view_org_repo_list_git_clone_curl_head",
+        "result_count": 3,
+        "evidence_id": "packaging-slot-2026-05-20",
+        "lineage_profile": {
+          "live_source": 0.35,
+          "external_api": 0.55,
+          "memory_state": 0.10,
+          "external_grounding_ratio": 0.90
+        }
+      }
+    },
+    {
+      "ts": "2026-05-20T01:04:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "drift",
+        "summary": "A real invited-PR promise became stale when the public repo route disappeared; recovery required live route verification and a non-code contact redirect, not continued GitHub execution.",
+        "label": "stale_context",
+        "contributing_labels": [
+          "false_completion"
+        ]
+      }
+    }
+  ]
+}

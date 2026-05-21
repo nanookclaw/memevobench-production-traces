@@ -1,0 +1,182 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "drift/2026-05-04-phantom-email-followups",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "chronic-issues:stale-context-driving-action#example_2026-05-04",
+    "reconstruction_notes": "Reconstructed from memory/2026-05-04.md (19:30 UTC Email entry + 19:30 UTC daytime-work-loop Email entry + 19:45 UTC Email Correction entry) and chronic-issues.json#stale-context-driving-action example dated 2026-05-04. The task-email work loop did not write structured per-event state at the time, so events are derived from the daily-log narrative. The two 19:30Z entries in the daily log correspond to a single set of outbound sends (recovered quota delta of +3, not +6, in the same-day correction). Phantom contact names and the addresses they were sent to are pseudonymized in this record because the real third parties behind the intended (but incorrectly used) addresses are research contacts and not public participants in the cited event. The structural mitigation that was applied later the same week (verbatim enumeration recipe in task-email playbook) lives outside this session and is referenced from the closing correction.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-04T19:25:00Z",
+    "ended_at": "2026-05-04T19:47:00Z",
+    "wall_clock_seconds": 1320
+  },
+  "lineage_profile": {
+    "live_source": 0.05,
+    "external_api": 0.10,
+    "memory_state": 0.85,
+    "external_grounding_ratio": 0.15
+  },
+  "snapshots": [],
+  "corrections": [
+    { "event_index": 7, "corrects_event_index": 2 }
+  ],
+  "events": [
+    {
+      "ts": "2026-05-04T19:28:30Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "memory/recent_insights_snippets",
+        "selector": "follow-up candidates (cold contacts due for second touch)",
+        "result_summary": "Read three contact-shaped strings from prior daily-log snippets cached in the session context. The snippets were prose summaries from earlier work-loop entries, not a live enumeration of the outreach store. Source freshness was not checked at this read.",
+        "freshness_age_seconds": 432000,
+        "verifier": null
+      }
+    },
+    {
+      "ts": "2026-05-04T19:29:10Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "state_query",
+        "intent": "Enumerate due follow-up contacts from the outreach store (keys + email + follow_up_sent + last_contact).",
+        "result_summary": "Live enumeration was not performed in this session; the agent proceeded from the prior-step retrieval instead. A later same-session reconciliation re-ran the enumeration and returned an empty due-set, confirming none of the prior-step strings corresponded to real keys.",
+        "verifier": null,
+        "error": "not_invoked_in_this_session"
+      }
+    },
+    {
+      "ts": "2026-05-04T19:31:02Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "sendclaw_email",
+        "recipient_class": "research_contact",
+        "intent": "Share PDR-in-Production DOI 10.5281/zenodo.19298996 and ask about a domain-specific drift angle for [PHANTOM_CONTACT_A].",
+        "durable_id": "[SENDCLAW_MSG_ID_REDACTED_A]",
+        "verified_landed": true,
+        "quota_state": {
+          "service": "sendclaw_daily",
+          "used_after": 2,
+          "cap": 25
+        },
+        "dedup_check": {
+          "performed": false,
+          "reason": "recipient key never resolved against the live outreach store, so no prior-contact lookup ran"
+        },
+        "lineage_profile": {
+          "live_source": 0.00,
+          "external_api": 0.05,
+          "memory_state": 0.95,
+          "external_grounding_ratio": 0.05
+        }
+      }
+    },
+    {
+      "ts": "2026-05-04T19:32:18Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "sendclaw_email",
+        "recipient_class": "research_contact",
+        "intent": "Share PDR-in-Production DOI 10.5281/zenodo.19298996 and ask about a domain-specific drift angle for [PHANTOM_CONTACT_B].",
+        "durable_id": "[SENDCLAW_MSG_ID_REDACTED_B]",
+        "verified_landed": true,
+        "quota_state": {
+          "service": "sendclaw_daily",
+          "used_after": 3,
+          "cap": 25
+        },
+        "dedup_check": {
+          "performed": false,
+          "reason": "recipient key never resolved against the live outreach store, so no prior-contact lookup ran"
+        },
+        "lineage_profile": {
+          "live_source": 0.00,
+          "external_api": 0.05,
+          "memory_state": 0.95,
+          "external_grounding_ratio": 0.05
+        }
+      }
+    },
+    {
+      "ts": "2026-05-04T19:33:24Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "sendclaw_email",
+        "recipient_class": "research_contact",
+        "intent": "Share PDR-in-Production DOI 10.5281/zenodo.19298996 and ask about a domain-specific drift angle for [PHANTOM_CONTACT_C].",
+        "durable_id": "[SENDCLAW_MSG_ID_REDACTED_C]",
+        "verified_landed": true,
+        "quota_state": {
+          "service": "sendclaw_daily",
+          "used_after": 4,
+          "cap": 25
+        },
+        "dedup_check": {
+          "performed": false,
+          "reason": "recipient key never resolved against the live outreach store, so no prior-contact lookup ran"
+        },
+        "lineage_profile": {
+          "live_source": 0.00,
+          "external_api": 0.05,
+          "memory_state": 0.95,
+          "external_grounding_ratio": 0.05
+        }
+      }
+    },
+    {
+      "ts": "2026-05-04T19:34:55Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "memory/YYYY-MM-DD.md#email",
+        "kind": "append",
+        "summary": "Wrote a 'Follow-ups sent (3)' block plus a 'State updated' line claiming follow_up_sent=true, exchange_count+1, last_contact=2026-05-04 for all three phantom keys. The state-update attempts had not in fact succeeded; the prose claim was generated independently of any successful write.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": null,
+        "lineage_profile": {
+          "live_source": 0.00,
+          "external_api": 0.00,
+          "memory_state": 1.00,
+          "external_grounding_ratio": 0.00
+        }
+      }
+    },
+    {
+      "ts": "2026-05-04T19:35:40Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "state_query",
+        "intent": "Attempt to write follow_up_sent=true / exchange_count+1 / last_contact for the three phantom contact keys.",
+        "result_summary": "All three updates returned 'no such key' errors. The store returns a structured _missing sentinel on get for nonexistent keys and does not raise; the wrapper treated the error responses as recoverable and did not surface them into the same-step memory_update at index 6.",
+        "verifier": "state_query_error_payload",
+        "error": "no such key (x3)"
+      }
+    },
+    {
+      "ts": "2026-05-04T19:46:12Z",
+      "type": "correction",
+      "payload": {
+        "corrects_event_index": 2,
+        "correction_kind": "retract",
+        "summary": "Post-run verification re-ran the live enumeration: outreach store has no entries for the three phantom keys; the intended real contacts behind the lookalike addresses already had follow_up_sent=true and were not due. Logged the retraction with quota delta, address-vs-real-contact mapping, and root cause (stale-context-driving-action, fifth instance). Three SendClaw sends are externally visible and cannot be recalled.",
+        "verifier": "state_query_keys_enumeration",
+        "lineage_delta": {
+          "live_source": 0.50,
+          "external_api": 0.40,
+          "memory_state": 0.10,
+          "external_grounding_ratio": 0.90
+        }
+      }
+    },
+    {
+      "ts": "2026-05-04T19:46:55Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "drift",
+        "summary": "Session sent three externally visible emails to addresses that did not correspond to any registered contact, then asserted a state update that did not occur. Same-session correction at index 7 retracted the prose claims and recorded the quota burn; the structural mitigation (verbatim enumeration recipe in the task-email playbook) was applied in a later session referenced in chronic-issues.",
+        "label": "stale_context",
+        "contributing_labels": ["fabrication", "false_completion"]
+      }
+    }
+  ]
+}

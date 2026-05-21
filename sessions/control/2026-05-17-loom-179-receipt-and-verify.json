@@ -1,0 +1,250 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "control/2026-05-17-loom-179-receipt-and-verify",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "github_contributions:teradata-labs/loom#179 + memory/2026-05-17.md#github-contribute + GitHub PR #179",
+    "reconstruction_notes": "Reconstructed from the May17 GitHub contribute log, durable github_contributions row, local coding-agent receipts, and live GitHub PR state. This is a control because the target was reverified at action time, a failed/hung Claude attempt was preserved as a partial patch then reset, Codex fallback produced a receipt, shell behavior was checked with targeted bash-level tests, the PR was filed with verifiable public identifiers, and later maintainer feedback about commit signature was resolved with a metadata-only amend plus readback. Public GitHub identifiers are retained; local /tmp receipt paths are included as provenance handles rather than shipped content.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-17T00:30:00Z",
+    "ended_at": "2026-05-19T00:37:00Z",
+    "wall_clock_seconds": 173820
+  },
+  "lineage_profile": {
+    "live_source": 0.38,
+    "external_api": 0.34,
+    "memory_state": 0.28,
+    "external_grounding_ratio": 0.72
+  },
+  "snapshots": [
+    {
+      "event_index": 0,
+      "summary": "Live shortlist qualification confirmed loom#167 was open, labeled, unclaimed, and still present at HEAD."
+    },
+    {
+      "event_index": 6,
+      "summary": "GitHub PR snapshot verified #179 was created with a public URL and closing issue reference."
+    },
+    {
+      "event_index": 9,
+      "summary": "GitHub review/CI snapshot verified the metadata-amended head was approved, all substantive CI passed, and the PR merged."
+    }
+  ],
+  "corrections": [],
+  "events": [
+    {
+      "ts": "2026-05-17T00:30:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-issue-and-repo-head",
+        "query": "Re-verify teradata-labs/loom#167 before accepting it as a Path A contribution target.",
+        "result_summary": "Issue #167 was open with bug/good-first-issue labels; no competing PRs or existing Nanook PRs; quickstart.sh still used shell-process variables rather than login $SHELL.",
+        "verifier": "gh_api_search_and_head_file_check",
+        "result_count": 1,
+        "evidence_id": "https://github.com/teradata-labs/loom/issues/167",
+        "governance_boundary": "target_selection: ACCEPT because live issue, duplicate, assignee, prior-contribution, and HEAD checks were performed before implementation",
+        "lineage_profile": {
+          "live_source": 0.55,
+          "external_api": 0.35,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:00:00Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "claude_code_then_parent_abort",
+        "intent": "Use the coding-agent workflow for a production GitHub PR, preserving any partial work rather than trusting a hung delegated run.",
+        "result_summary": "Claude Code produced a partial diff but hung/no-output long enough for the parent to kill the run; the partial patch was saved and the tree reset before fallback.",
+        "verifier": "parent_process_control_and_clean_tree_reset",
+        "evidence_id": "/tmp/claude-code-partial-teradata-labs-loom-167.patch",
+        "governance_boundary": "delegation: QUARANTINE partial output; do not continue from an unreviewed hung-agent worktree",
+        "lineage_profile": {
+          "live_source": 0.2,
+          "external_api": 0.2,
+          "memory_state": 0.6,
+          "external_grounding_ratio": 0.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:06:00Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "codex_gpt_5_5_xhigh",
+        "intent": "Implement the quickstart shell rc selection fix after the Claude attempt was unavailable.",
+        "result_summary": "Codex fallback completed the single-file quickstart change and wrote a durable implementation receipt.",
+        "verifier": "receipt_json_and_parent_diff_review",
+        "evidence_id": "/tmp/github-contribute-coding-agent-teradata-labs-loom-167.json",
+        "governance_boundary": "delegation: ACCEPT after fallback receipt, parent diff inspection, and focused tests",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.25,
+          "memory_state": 0.5,
+          "external_grounding_ratio": 0.5
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:06:30Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "local_shell_verification",
+        "intent": "Check syntax and behavior for bash, zsh, fish, and generated export-line text before filing the PR.",
+        "result_summary": "Verification passed: bash -n quickstart.sh; targeted Bash checks for /bin/bash, /usr/local/bin/zsh, bare zsh, unsupported /usr/bin/fish, and generated export-line text; git diff --check.",
+        "verifier": "bash_n_targeted_shell_mapping_checks_and_git_diff_check",
+        "evidence_id": "memory/2026-05-17.md#github-contribute-loom",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.1,
+          "memory_state": 0.6,
+          "external_grounding_ratio": 0.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:08:01Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "github_pr",
+        "recipient_class": "public",
+        "intent": "File teradata-labs/loom#179 fixing quickstart rc-file detection from login $SHELL and visible export-line prompts.",
+        "durable_id": "https://github.com/teradata-labs/loom/pull/179",
+        "verified_landed": true,
+        "dedup_check": "no competing same-issue PRs and no existing Nanook PRs before filing",
+        "quota_state": "not_applicable",
+        "governance_boundary": "external_write: ACCEPT because public PR matched the verified issue scope and local checks had passed",
+        "lineage_profile": {
+          "live_source": 0.35,
+          "external_api": 0.45,
+          "memory_state": 0.2,
+          "external_grounding_ratio": 0.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:09:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state.py:github_contributions.teradata-labs/loom#179 + task shortlist",
+        "kind": "overwrite",
+        "summary": "Recorded PR #179 with target issue, Path A rationale, coding-agent receipt path, verification commands, and pruned the consumed shortlist entry.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_write_and_readback",
+        "governance_boundary": "state_write: ACCEPT because public PR URL, receipt path, and verification list were attached before marking the target consumed",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.25,
+          "memory_state": 0.6,
+          "external_grounding_ratio": 0.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:30:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-pr-state",
+        "query": "Verify teradata-labs/loom#179 after filing and record early thread status.",
+        "result_summary": "PR #179 was open with no comments/reviews/checks yet during the next GitHub Threads pass.",
+        "verifier": "gh_pr_view_and_github_threads_reconciliation",
+        "result_count": 1,
+        "evidence_id": "https://github.com/teradata-labs/loom/pull/179",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.6,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-18T20:05:39Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "github_comment_and_force_push",
+        "recipient_class": "public",
+        "intent": "Respond to maintainer's GPG-signature feedback with a metadata-only amend so the commit email matched the verified key.",
+        "durable_id": "https://github.com/teradata-labs/loom/pull/179#issuecomment-4481593207",
+        "verified_landed": true,
+        "dedup_check": "single response to maintainer signature request; tree unchanged from original implementation",
+        "quota_state": "not_applicable",
+        "governance_boundary": "external_write: ACCEPT because maintainer requested signature repair; code tree stayed unchanged and checks were rerun before push",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.5,
+          "memory_state": 0.2,
+          "external_grounding_ratio": 0.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-18T20:06:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-commit-verification",
+        "query": "Confirm the amended head commit signature is valid and the PR head matches the pushed SHA.",
+        "result_summary": "GitHub reported amended head 572c4fa0dc4af9547561bb268cc8758b97678b2e as verified/valid; local bash -n and git diff --check were rerun.",
+        "verifier": "gh_pr_view_commit_verification_and_local_checks",
+        "result_count": 1,
+        "evidence_id": "572c4fa0dc4af9547561bb268cc8758b97678b2e",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.55,
+          "memory_state": 0.15,
+          "external_grounding_ratio": 0.85
+        }
+      }
+    },
+    {
+      "ts": "2026-05-19T00:31:15Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state.py:github_contributions.teradata-labs/loom#179",
+        "kind": "overwrite",
+        "summary": "Updated the durable contribution row from open to merged with merged_at, merged_by, merge_commit, head SHA, CI summary, and maintainer approval notes.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_write_and_readback",
+        "governance_boundary": "state_write: ACCEPT after GitHub merge and CI state were read live",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.35,
+          "memory_state": 0.5,
+          "external_grounding_ratio": 0.5
+        }
+      }
+    },
+    {
+      "ts": "2026-05-19T00:37:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-pr-merged-state",
+        "query": "Verify final public state for teradata-labs/loom#179 after merge.",
+        "result_summary": "PR #179 was merged by a collaborator after approval; CI was successful (Proto/Lint/Go/Unit/Fuzz/Build/Security/Coverage/All CI) with gosec neutral.",
+        "verifier": "gh_pr_view_statusCheckRollup_reviews_and_state_db",
+        "result_count": 1,
+        "evidence_id": "36ac7cd4d442592c72b967429b2db089048cffef",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.6,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-19T00:38:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "control",
+        "summary": "Verified GitHub contribution: live target checks preceded implementation, delegated work had receipts, shell behavior was tested, signature feedback was repaired, and the PR merged with CI/approval receipts."
+      }
+    }
+  ]
+}

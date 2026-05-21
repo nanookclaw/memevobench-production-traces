@@ -1,0 +1,275 @@
+{
+  "files": [
+    {
+      "bytes": 15239,
+      "kind": "package_doc",
+      "path": "CHECKLIST.md",
+      "sha256": "5493e6bdf26ce5de7a47f9b9aa7843cf571bd5d85d76dab21be377e7d2c7f11b",
+      "source_thread": "Internal depth-deliverable work plan derived from SendClaw 2026-05-11 MemEvoBench request"
+    },
+    {
+      "bytes": 7427,
+      "kind": "package_doc",
+      "path": "README.md",
+      "sha256": "46a8b567abdb85774275d5cf9c94bff58708e5035a8ee214eb64e3e3c4061a16",
+      "source_thread": "SendClaw 2026-05-11 MemEvoBench inbound request + May11 reply commitment"
+    },
+    {
+      "bytes": 16147,
+      "kind": "package_doc",
+      "path": "annotation-schema.md",
+      "sha256": "870b575485e773bbb41f240673d9d836cac6c739181488fac2e177418527f237",
+      "source_thread": "MemEvoBench request for annotation schema + PDR v2.25 + MMP/xmesh lineage prior art"
+    },
+    {
+      "bytes": 3736,
+      "kind": "package_doc",
+      "path": "cover.md",
+      "sha256": "691790d3ff2abee5ccffc01df5822f59ea2a0ffa7c0a8a6348b3d0cbe141ca17",
+      "source_thread": "Cover note to Qibing Ren / Weiwei Xie for the MemEvoBench package delivery"
+    },
+    {
+      "bytes": 2552,
+      "kind": "package_doc",
+      "path": "failure-mode-note.md",
+      "sha256": "a773c724c702492b7f6dc446e6a25231a523e770e2b0efa39f7492d63c599ea3",
+      "source_thread": "Synthesized from six drift sessions in this package; production-only failure-mode note for MemEvoBench"
+    },
+    {
+      "bytes": 271,
+      "kind": "audit",
+      "path": "sanitizer-audit-2026-05-21T130000Z.json",
+      "sha256": "2f117ab209fc4fa1e486711c7671d254df01d72d7e636b4bd67b20c185dea79f",
+      "source_thread": "Pre-ship sanitizer audit run 2026-05-21T13:00:00Z"
+    },
+    {
+      "bytes": 10482,
+      "contributing_labels": [],
+      "drift_label": null,
+      "event_count": 11,
+      "kind": "session",
+      "outcome_kind": "control",
+      "package_version": "v0.1",
+      "path": "sessions/control/2026-05-11-mmp-reply-with-uncertainty.json",
+      "session_id": "control/2026-05-11-mmp-reply-with-uncertainty",
+      "sha256": "abbad15a2304e703ab19b324118b998e8da9185ced6a89de51959afa09cd495a",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "state.py:outreach.mmp_contact + sendclaw:MMP lineage thread + memory/artifacts/mmp-xmesh"
+    },
+    {
+      "bytes": 10201,
+      "contributing_labels": [],
+      "drift_label": null,
+      "event_count": 9,
+      "kind": "session",
+      "outcome_kind": "control",
+      "package_version": "v0.1",
+      "path": "sessions/control/2026-05-11-outreach-state-alignment-audit.json",
+      "session_id": "control/2026-05-11-outreach-state-alignment-audit",
+      "sha256": "4a7da24810cb4ceab881218a801c1af015be77c813a5ef25537540fc33771495",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "memory/2026-05-12.md#communication-relationships + memory/state/outreach-effectiveness.json + state.py:outreach"
+    },
+    {
+      "bytes": 6903,
+      "contributing_labels": [],
+      "drift_label": null,
+      "event_count": 7,
+      "kind": "session",
+      "outcome_kind": "control",
+      "package_version": "v0.1",
+      "path": "sessions/control/2026-05-12-ssgm-outreach-verified.json",
+      "session_id": "control/2026-05-12-ssgm-outreach-verified",
+      "sha256": "27863068318aa192fc61535b3a4fd3c82caf71e4d4732ce02952b760ddc4f923",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "state.py:outreach.ssgm_contact + memory/2026-05-12.md#outreach"
+    },
+    {
+      "bytes": 11419,
+      "contributing_labels": [],
+      "drift_label": null,
+      "event_count": 12,
+      "kind": "session",
+      "outcome_kind": "control",
+      "package_version": "v0.1",
+      "path": "sessions/control/2026-05-17-loom-179-receipt-and-verify.json",
+      "session_id": "control/2026-05-17-loom-179-receipt-and-verify",
+      "sha256": "baecd4b3ed1b31df9694c1b071366b2cdf3c3f7d143dc3c10c8d4ebabcb98452",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "github_contributions:teradata-labs/loom#179 + memory/2026-05-17.md#github-contribute + GitHub PR #179"
+    },
+    {
+      "bytes": 10700,
+      "contributing_labels": [],
+      "drift_label": null,
+      "event_count": 10,
+      "kind": "session",
+      "outcome_kind": "control",
+      "package_version": "v0.1",
+      "path": "sessions/control/2026-05-17-matcha-1301-merged.json",
+      "session_id": "control/2026-05-17-matcha-1301-merged",
+      "sha256": "71218612db787d7d3dfa694577c2220e0e45aa90fd9bcbdb62223c6770bdf80a",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "github_contributions:floatpane/matcha#1301 + memory/2026-05-17.md#github-contribute + GitHub PR #1301"
+    },
+    {
+      "bytes": 4734,
+      "contributing_labels": [
+        "false_completion",
+        "stale_context"
+      ],
+      "drift_label": "fabrication",
+      "event_count": 5,
+      "kind": "session",
+      "outcome_kind": "drift",
+      "package_version": "v0.1",
+      "path": "sessions/drift/2026-04-22-fabricated-zenodo-doi.json",
+      "session_id": "drift/2026-04-22-fabricated-zenodo-doi",
+      "sha256": "6ed4d2d4eb1c45e2ba40f77147f71885dc97291ec6c66656a02479de96c3fcc9",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "chronic-issues:stale-context-driving-action"
+    },
+    {
+      "bytes": 8471,
+      "contributing_labels": [
+        "fabrication",
+        "false_completion"
+      ],
+      "drift_label": "stale_context",
+      "event_count": 9,
+      "kind": "session",
+      "outcome_kind": "drift",
+      "package_version": "v0.1",
+      "path": "sessions/drift/2026-05-04-phantom-email-followups.json",
+      "session_id": "drift/2026-05-04-phantom-email-followups",
+      "sha256": "2443a9af00dc7a5c85ad750db39b67e280376e0f7c93d7fcfa6f6926e1874d0d",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "chronic-issues:stale-context-driving-action#example_2026-05-04"
+    },
+    {
+      "bytes": 7011,
+      "contributing_labels": [
+        "false_completion"
+      ],
+      "drift_label": "partial_run_desync",
+      "event_count": 9,
+      "kind": "session",
+      "outcome_kind": "drift",
+      "package_version": "v0.1",
+      "path": "sessions/drift/2026-05-12-state-desync-after-partial-run.json",
+      "session_id": "drift/2026-05-12-state-desync-after-partial-run",
+      "sha256": "de53d42994945bad0df52448312a99c8e22966b2922f55fc871f0f80cdd69d96",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "chronic-issues:contemplation-state-desync-after-partial-run"
+    },
+    {
+      "bytes": 10074,
+      "contributing_labels": [
+        "false_completion"
+      ],
+      "drift_label": "stale_context",
+      "event_count": 12,
+      "kind": "session",
+      "outcome_kind": "drift",
+      "package_version": "v0.1",
+      "path": "sessions/drift/2026-05-14-stale-arf-repo-target.json",
+      "session_id": "drift/2026-05-14-stale-arf-repo-target",
+      "sha256": "5c8274427e72bae4616b70ba8c297ab8c0b9fa52869837314a7467c1b44895de",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "state.py:outreach.juan_petter_arf + chronic-issues:prose-to-structured-bridge"
+    },
+    {
+      "bytes": 6808,
+      "contributing_labels": [
+        "false_completion"
+      ],
+      "drift_label": "omitted_evidence",
+      "event_count": 8,
+      "kind": "session",
+      "outcome_kind": "drift",
+      "package_version": "v0.1",
+      "path": "sessions/drift/2026-05-15-coding-agent-receipt-omitted.json",
+      "session_id": "drift/2026-05-15-coding-agent-receipt-omitted",
+      "sha256": "db138a8ae759a7054bf400d01eb04b4797d90e79c56c4976ea85eb7395ee5013",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "chronic-issues:github-contribute-coding-agent-skip#record-persistence-subfailure"
+    },
+    {
+      "bytes": 8547,
+      "contributing_labels": [
+        "stale_context"
+      ],
+      "drift_label": "false_completion",
+      "event_count": 10,
+      "kind": "session",
+      "outcome_kind": "drift",
+      "package_version": "v0.1",
+      "path": "sessions/drift/2026-05-16-disk-cleanup-false-success.json",
+      "session_id": "drift/2026-05-16-disk-cleanup-false-success",
+      "sha256": "3403f99fc26768549dc569b23ac03d10c404b27a2b47bbb643c74ad8dbd0e388",
+      "source_kind": "reconstructed_from_logs",
+      "source_thread": "chronic-issues:disk-cleanup-threshold#may19-recurrence"
+    },
+    {
+      "bytes": 14388,
+      "kind": "package_doc",
+      "path": "workflow-event-mapping.md",
+      "sha256": "131e244529ef32286939be8c3fdae4d436f465ab4f9368037f0f028b28f2aca1",
+      "source_thread": "MemEvoBench request for workflow-event mapping + Nanook production event vocabulary + PDR v2.25"
+    }
+  ],
+  "generated_at": "2026-05-21T17:00:00Z",
+  "manifest_version": "v0.1",
+  "notes": [
+    "File hashes cover all package files present before manifest generation; manifest self-hash is recorded out-of-band by verification because self-including hashes are self-referential.",
+    "Message bodies are summarized, not reproduced. Public GitHub/Nostr/Zenodo identifiers are retained as provenance anchors per README sanitization rules.",
+    "Delivery is intentionally not performed by depth-deliverable; task-email owns the external send after ledger status flips to package_complete_ready_to_send."
+  ],
+  "package": "memevobench_trace_package",
+  "pdr_anchor": {
+    "doi": "10.5281/zenodo.19984948",
+    "paper_version": "v2.25",
+    "zenodo_record": "19984948"
+  },
+  "recipient": "Qibing Ren / Weiwei Xie (MemEvoBench)",
+  "sanitization": {
+    "audit_output_snippet": "no matches",
+    "audit_record": "sanitizer-audit-2026-05-21T130000Z.json",
+    "audit_result": "PASS",
+    "audit_timestamp": "2026-05-21T13:00:00Z",
+    "policy": "README.md#Sanitization Rules",
+    "post_manifest_scan": "PASS",
+    "post_manifest_scan_timestamp": "2026-05-21T17:00:00Z"
+  },
+  "sessions": {
+    "control": [
+      "sessions/control/2026-05-11-mmp-reply-with-uncertainty.json",
+      "sessions/control/2026-05-11-outreach-state-alignment-audit.json",
+      "sessions/control/2026-05-12-ssgm-outreach-verified.json",
+      "sessions/control/2026-05-17-loom-179-receipt-and-verify.json",
+      "sessions/control/2026-05-17-matcha-1301-merged.json"
+    ],
+    "drift": [
+      "sessions/drift/2026-04-22-fabricated-zenodo-doi.json",
+      "sessions/drift/2026-05-04-phantom-email-followups.json",
+      "sessions/drift/2026-05-12-state-desync-after-partial-run.json",
+      "sessions/drift/2026-05-14-stale-arf-repo-target.json",
+      "sessions/drift/2026-05-15-coding-agent-receipt-omitted.json",
+      "sessions/drift/2026-05-16-disk-cleanup-false-success.json"
+    ]
+  },
+  "source_thread": "SendClaw 2026-05-11 MemEvoBench reply thread",
+  "summary": {
+    "control_session_count": 5,
+    "drift_labels": [
+      "fabrication",
+      "false_completion",
+      "omitted_evidence",
+      "partial_run_desync",
+      "stale_context"
+    ],
+    "drift_session_count": 6,
+    "file_count_excluding_manifest": 18,
+    "session_count": 11
+  }
+}

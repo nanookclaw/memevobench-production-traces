@@ -1,0 +1,178 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "drift/2026-05-12-state-desync-after-partial-run",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "chronic-issues:contemplation-state-desync-after-partial-run",
+    "reconstruction_notes": "Reconstructed from memory/2026-05-16.md Cron Health & Efficiency, memory/2026-05-17.md Learning & Growth, and chronic-issues.json#contemplation-state-desync-after-partial-run. The checklist filename carries an earlier May12 placeholder, but the verified incident occurred across 2026-05-16/17: a completed Contemplation pass survived in durable logs/playbooks/chronic state, while the final contemplation-state.json rewrite was lost after a gateway restart/error. No private operator details or internal hostnames are included.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-16T19:15:00Z",
+    "ended_at": "2026-05-17T01:20:00Z",
+    "wall_clock_seconds": 21900
+  },
+  "lineage_profile": {
+    "live_source": 0.2,
+    "external_api": 0.2,
+    "memory_state": 0.6,
+    "external_grounding_ratio": 0.4
+  },
+  "snapshots": [
+    {
+      "event_index": 1,
+      "summary": "Cron/run history showed the prior Contemplation run ended error after the durable work was already logged."
+    },
+    {
+      "event_index": 5,
+      "summary": "Daily memory entry plus on-disk playbook/chronic updates were used as the recovery ledger."
+    }
+  ],
+  "corrections": [
+    {
+      "event_index": 6,
+      "corrects_event_index": 5
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-05-16T19:15:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "contemplation-run-context",
+        "selector": "Cron Health & Efficiency pass inputs",
+        "result_summary": "Loaded cron status, work-loop playbooks, contemplation delivery rules, chronic issues, and current contemplation-state before selecting the topic.",
+        "freshness_age_seconds": 0,
+        "verifier": "live_file_and_cron_reads",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.25,
+          "memory_state": 0.5,
+          "external_grounding_ratio": 0.5
+        }
+      }
+    },
+    {
+      "ts": "2026-05-16T19:16:30Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "cron-run-history",
+        "query": "recent Daytime/Overnight and Contemplation runs",
+        "result_summary": "Found long work-loop runs relative to the old lock TTL and recent Contemplation errors caused by alert transport rather than failed durable work.",
+        "verifier": "openclaw_cron_runs",
+        "result_count": 20,
+        "evidence_id": "cron-history-redacted"
+      }
+    },
+    {
+      "ts": "2026-05-16T19:18:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "playbooks/work-loop-daytime.md + playbooks/work-loop-overnight.md + playbooks/contemplation.md",
+        "kind": "overwrite",
+        "summary": "Updated work-loop lock TTL guidance to 58 minutes and changed Contemplation alert handling so Signal failures degrade to durable memory fallback.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "post_edit_file_read",
+        "lineage_profile": {
+          "live_source": 0.1,
+          "external_api": 0.0,
+          "memory_state": 0.9,
+          "external_grounding_ratio": 0.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-16T19:20:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "memory/state/chronic-issues.json + memory/2026-05-16.md",
+        "kind": "append",
+        "summary": "Recorded work-loop lock TTL mismatch, Signal delivery hygiene fix, and the completed Cron Health & Efficiency Contemplation entry.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "json_load_and_daily_log_read",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.0,
+          "memory_state": 0.95,
+          "external_grounding_ratio": 0.05
+        }
+      }
+    },
+    {
+      "ts": "2026-05-16T19:22:23Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "gateway_process",
+        "intent": "Continue after durable playbook/state/log writes and complete the final contemplation-state.json rewrite.",
+        "result_summary": "Run ended with an error after about 443 seconds because the gateway restarted or transport failed before the final contemplation-state rewrite landed.",
+        "verifier": "cron_history_status_and_duration",
+        "error": "interrupted_after_durable_outputs_before_final_state_rewrite"
+      }
+    },
+    {
+      "ts": "2026-05-17T01:15:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "memory/state/contemplation-state.json",
+        "selector": "last_run and last-reviewed topic timestamps",
+        "result_summary": "State still said the previous completed topic was Priority Alignment at 06:15Z; it did not reflect the later Cron Health pass recorded in daily memory.",
+        "freshness_age_seconds": 68400,
+        "verifier": "file_read",
+        "lineage_profile": {
+          "live_source": 0.0,
+          "external_api": 0.0,
+          "memory_state": 1.0,
+          "external_grounding_ratio": 0.0
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:18:00Z",
+      "type": "correction",
+      "payload": {
+        "corrects_event_index": 5,
+        "correction_kind": "rewrite",
+        "summary": "Repaired contemplation-state from the daily memory entry and verified cron history: marked Cron Health reviewed at 2026-05-16T19:15Z and added the missed insight.",
+        "verifier": "daily_log_plus_cron_history_reconciliation",
+        "lineage_delta": {
+          "live_source": 0.45,
+          "external_api": 0.35,
+          "memory_state": 0.2,
+          "external_grounding_ratio": 0.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:19:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "playbooks/contemplation.md + memory/state/chronic-issues.json",
+        "kind": "overwrite",
+        "summary": "Added a preflight reconciliation rule for later daily Contemplation entries whose state rewrite was lost after an interrupted or errored run.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "json_load_and_file_read",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.05,
+          "memory_state": 0.9,
+          "external_grounding_ratio": 0.1
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T01:20:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "drift",
+        "summary": "A completed metacognition pass existed in durable memory and playbook/chronic updates, but mutable rotation state stayed stale until the next run reconciled it.",
+        "label": "partial_run_desync",
+        "contributing_labels": [
+          "false_completion"
+        ]
+      }
+    }
+  ]
+}

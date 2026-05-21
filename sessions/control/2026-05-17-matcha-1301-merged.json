@@ -1,0 +1,217 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "control/2026-05-17-matcha-1301-merged",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "github_contributions:floatpane/matcha#1301 + memory/2026-05-17.md#github-contribute + GitHub PR #1301",
+    "reconstruction_notes": "Reconstructed from the May17 GitHub discovery/contribute/thread logs, durable github_contributions row, Claude Code receipt, and live GitHub issue/PR state. This is a control because the issue and HEAD behavior were reverified before implementation, delegated work produced a retained receipt, focused calendar tests/vet/build/diff checks passed, the repository formatting-bot feedback was handled by editing PR metadata rather than changing code blindly, and merge/approval/check state was read back from GitHub. Public GitHub identifiers are retained; local /tmp receipt paths are included as provenance handles rather than shipped content.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-17T18:30:00Z",
+    "ended_at": "2026-05-18T00:38:00Z",
+    "wall_clock_seconds": 22080
+  },
+  "lineage_profile": {
+    "live_source": 0.42,
+    "external_api": 0.34,
+    "memory_state": 0.24,
+    "external_grounding_ratio": 0.76
+  },
+  "snapshots": [
+    {
+      "event_index": 0,
+      "summary": "Live qualification confirmed matcha#1058 was an open bug/good-first issue, unassigned, without competing PRs, and still reproducible in the target function at HEAD."
+    },
+    {
+      "event_index": 4,
+      "summary": "Formatting-bot review/check showed the PR body, not the code, was the only immediate repository-policy issue."
+    },
+    {
+      "event_index": 7,
+      "summary": "Final GitHub snapshot showed approval by andrinoff, merge commit 294bed4, closing issue #1058, and green substantive CI/checks after the body-format repair."
+    }
+  ],
+  "corrections": [],
+  "events": [
+    {
+      "ts": "2026-05-17T18:30:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-issue-and-repo-head",
+        "query": "Re-verify floatpane/matcha#1058 before accepting it as a Path A contribution target.",
+        "result_summary": "Issue #1058 was open with bug and good-first-issue labels, no assignees, no competing PRs, prior Nanook matcha PR was already merged, and calendar.parseEventTimestamp still applied TZID to date-only YYYYMMDD/VALUE=DATE values at HEAD.",
+        "verifier": "gh_issue_view_pr_search_and_head_file_check",
+        "result_count": 1,
+        "evidence_id": "https://github.com/floatpane/matcha/issues/1058",
+        "governance_boundary": "target_selection: ACCEPT because live issue, assignee, duplicate-PR, prior-contribution, and HEAD checks were performed before implementation",
+        "lineage_profile": {
+          "live_source": 0.55,
+          "external_api": 0.35,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:02:00Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "claude_code_opus_max",
+        "intent": "Implement the date-only TZID calendar fix through the coding-agent workflow for a production GitHub PR.",
+        "result_summary": "Claude Code completed the calendar change cleanly, adding date-only detection, preserving timed TZID behavior, and writing a durable implementation receipt.",
+        "verifier": "receipt_json_and_parent_diff_review",
+        "evidence_id": "/tmp/github-contribute-coding-agent-floatpane-matcha-1058.json",
+        "governance_boundary": "delegation: ACCEPT after retained receipt, parent inspection, and focused local verification",
+        "lineage_profile": {
+          "live_source": 0.2,
+          "external_api": 0.25,
+          "memory_state": 0.55,
+          "external_grounding_ratio": 0.45
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:05:00Z",
+      "type": "tool_call",
+      "payload": {
+        "tool": "local_go_verification",
+        "intent": "Verify the calendar-only diff before filing the public PR.",
+        "result_summary": "Parent verification passed: go test ./calendar, go vet ./calendar, go build ./calendar, and git diff --check. Claude receipt also noted whole-repo go build ./... was blocked by an unrelated libpcsclite/scard system dependency, so the accepted gate stayed scoped to the touched calendar package.",
+        "verifier": "go_test_vet_build_calendar_and_git_diff_check",
+        "evidence_id": "memory/2026-05-17.md#github-contribute-matcha-1301",
+        "governance_boundary": "verification: ACCEPT because touched package checks passed and the unrelated repository-wide dependency blocker was explicitly scoped out",
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.1,
+          "memory_state": 0.65,
+          "external_grounding_ratio": 0.35
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:07:26Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "github_pr",
+        "recipient_class": "public",
+        "intent": "File floatpane/matcha#1301 fixing date-only calendar parsing so TZID is ignored for RFC 5545 VALUE=DATE/bare YYYYMMDD while timed TZID behavior remains unchanged.",
+        "durable_id": "https://github.com/floatpane/matcha/pull/1301",
+        "verified_landed": true,
+        "dedup_check": "no competing same-issue PRs and no existing open Nanook PR in the repo before filing",
+        "quota_state": "not_applicable",
+        "governance_boundary": "external_write: ACCEPT because public PR matched verified issue scope and local checks had passed",
+        "lineage_profile": {
+          "live_source": 0.35,
+          "external_api": 0.45,
+          "memory_state": 0.2,
+          "external_grounding_ratio": 0.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:08:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-pr-formatting-review",
+        "query": "Read immediate repository feedback after filing matcha#1301.",
+        "result_summary": "floatpanebot requested PR body headings ## What? and ## Why?; the first check-pr run failed for metadata/body-template format, not the code diff.",
+        "verifier": "gh_pr_view_reviews_and_status_check_rollup",
+        "result_count": 1,
+        "evidence_id": "https://github.com/floatpane/matcha/pull/1301#pullrequestreview-0",
+        "governance_boundary": "repository_policy: QUARANTINE metadata issue; repair PR body before treating checks as green",
+        "lineage_profile": {
+          "live_source": 0.35,
+          "external_api": 0.5,
+          "memory_state": 0.15,
+          "external_grounding_ratio": 0.85
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:09:06Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "github_pr_edit",
+        "recipient_class": "public",
+        "intent": "Repair repository-required PR metadata by adding the required body headings without altering the verified code diff.",
+        "durable_id": "https://github.com/floatpane/matcha/pull/1301",
+        "verified_landed": true,
+        "dedup_check": "single metadata repair in response to bot review; no duplicate PR/comment was opened",
+        "quota_state": "not_applicable",
+        "governance_boundary": "external_write: ACCEPT because the repository bot specified the formatting requirement and the subsequent check-pr run succeeded",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.5,
+          "memory_state": 0.2,
+          "external_grounding_ratio": 0.8
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:17:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state.py:github_contributions.floatpane/matcha#1301 + task shortlist",
+        "kind": "overwrite",
+        "summary": "Recorded PR #1301 with target issue, Path A rationale, Claude receipt path, verification commands, head SHA, PR URL, and pruned the consumed shortlist entry.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_write_and_readback",
+        "governance_boundary": "state_write: ACCEPT because public PR URL, receipt path, verification list, and issue closure reference were attached before marking the target consumed",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.25,
+          "memory_state": 0.6,
+          "external_grounding_ratio": 0.4
+        }
+      }
+    },
+    {
+      "ts": "2026-05-17T19:19:52Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "github-pr-merged-state",
+        "query": "Verify final public state for floatpane/matcha#1301 after maintainer review.",
+        "result_summary": "PR #1301 was approved by andrinoff, merged at 2026-05-17T19:19:52Z, closed issue #1058, and reported green code/platform checks after the bot formatting review was dismissed.",
+        "verifier": "gh_pr_view_reviews_statusCheckRollup_closingIssuesReferences_and_state_db",
+        "result_count": 1,
+        "evidence_id": "294bed4ee2175dfdfc2403ba7ce20812a39f3e5f",
+        "governance_boundary": "merge_readback: ACCEPT after approval, merge commit, closing issue reference, and CI/check state were read live",
+        "lineage_profile": {
+          "live_source": 0.3,
+          "external_api": 0.6,
+          "memory_state": 0.1,
+          "external_grounding_ratio": 0.9
+        }
+      }
+    },
+    {
+      "ts": "2026-05-18T00:37:57Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state.py:github_contributions.floatpane/matcha#1301",
+        "kind": "overwrite",
+        "summary": "Updated the durable contribution row to merged with merged_at, reviewer, head SHA, CI summary, and formatting-bot dismissal context.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_write_and_readback",
+        "governance_boundary": "state_write: ACCEPT after GitHub approval/merge/check state were read live",
+        "lineage_profile": {
+          "live_source": 0.15,
+          "external_api": 0.35,
+          "memory_state": 0.5,
+          "external_grounding_ratio": 0.5
+        }
+      }
+    },
+    {
+      "ts": "2026-05-18T00:38:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "control",
+        "summary": "Verified GitHub contribution: live issue/HEAD checks preceded implementation, Claude work had a retained receipt, local calendar tests/vet/build/diff checks passed, PR-body bot feedback was repaired, and the maintainer approved and merged the PR with issue closure and CI/check receipts."
+      }
+    }
+  ]
+}

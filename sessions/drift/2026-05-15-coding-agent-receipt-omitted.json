@@ -1,0 +1,177 @@
+{
+  "schema_version": "memevobench-trace/v0.1",
+  "session_id": "drift/2026-05-15-coding-agent-receipt-omitted",
+  "provenance": {
+    "source_kind": "reconstructed_from_logs",
+    "source_thread": "chronic-issues:github-contribute-coding-agent-skip#record-persistence-subfailure",
+    "reconstruction_notes": "Reconstructed from memory/2026-05-15.md GitHub Contribute / GitHub Threads / Learning & Growth entries, chronic-issues.json#github-contribute-coding-agent-skip, the public PR record aws/aws-cdk#37880, and the durable github_contributions row after backfill. The incident is evidence omission rather than a bad PR: the coding-agent receipt existed in ephemeral local storage and the PR was filed, but the permanent contribution record initially omitted the coding_agent object that later auditors read.",
+    "package_version": "v0.1"
+  },
+  "session_window": {
+    "started_at": "2026-05-15T03:35:00Z",
+    "ended_at": "2026-05-15T19:20:00Z",
+    "wall_clock_seconds": 56700
+  },
+  "lineage_profile": {
+    "live_source": 0.3,
+    "external_api": 0.25,
+    "memory_state": 0.45,
+    "external_grounding_ratio": 0.55
+  },
+  "snapshots": [
+    {
+      "event_index": 1,
+      "summary": "Ephemeral coding-agent receipt recorded Claude-unavailable then Codex fallback for aws/aws-cdk#35654."
+    },
+    {
+      "event_index": 4,
+      "summary": "Learning review compared the durable contribution row with the ephemeral receipt and found coding_agent missing."
+    }
+  ],
+  "corrections": [
+    {
+      "event_index": 5,
+      "corrects_event_index": 3
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-05-15T03:35:00Z",
+      "type": "retrieval",
+      "payload": {
+        "target": "playbooks/task-github-contribute.md#coding-agent-receipt-gate",
+        "selector": "Step 5 non-trivial PR workflow",
+        "result_summary": "Read the newly added rule that non-trivial PRs must use Claude first, Codex fallback if needed, and write a receipt before filing.",
+        "freshness_age_seconds": 7200,
+        "verifier": "file_read",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.0,
+          "memory_state": 0.95,
+          "external_grounding_ratio": 0.05
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T03:41:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "coding-agent-receipt",
+        "query": "receipt for aws/aws-cdk#35654",
+        "result_summary": "Receipt shows Claude Code was attempted but unavailable, Codex gpt-5.5 xhigh fallback ran, and output was written before the PR was filed.",
+        "verifier": "receipt_json_read",
+        "result_count": 1,
+        "evidence_id": "[EPHEMERAL_RECEIPT_JSON]",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.15,
+          "memory_state": 0.8,
+          "external_grounding_ratio": 0.2
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T04:11:52Z",
+      "type": "outbound_send",
+      "payload": {
+        "channel": "github_pr",
+        "recipient_class": "public",
+        "intent": "File a bounded Path B fix for aws/aws-cdk#35654 after Claude-first/Codex-fallback delegation and parent verification.",
+        "durable_id": "https://github.com/aws/aws-cdk/pull/37880",
+        "verified_landed": true,
+        "dedup_check": {
+          "performed": true,
+          "reason": "Target issue had no open Nanook PR and prior competing PRs were closed."
+        },
+        "lineage_profile": {
+          "live_source": 0.25,
+          "external_api": 0.45,
+          "memory_state": 0.3,
+          "external_grounding_ratio": 0.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T04:13:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "state:github_contributions/aws/aws-cdk#37880",
+        "kind": "append",
+        "summary": "Created the durable contribution row for the PR but omitted the required coding_agent object, so the receipt was not discoverable from the permanent audit surface.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "state_row_written_but_not_receipt_verified",
+        "lineage_profile": {
+          "live_source": 0.05,
+          "external_api": 0.1,
+          "memory_state": 0.85,
+          "external_grounding_ratio": 0.15
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T19:15:00Z",
+      "type": "snapshot",
+      "payload": {
+        "source": "learning-review-audit",
+        "query": "compare durable github_contributions row against coding-agent receipt requirement",
+        "result_summary": "Audit found the receipt existed and proved compliant delegation, but the permanent row had no coding_agent object, making the compliant run look missing to future audits.",
+        "verifier": "state_get_plus_receipt_read",
+        "result_count": 2,
+        "evidence_id": "aws/aws-cdk#37880 + [EPHEMERAL_RECEIPT_JSON]",
+        "lineage_profile": {
+          "live_source": 0.2,
+          "external_api": 0.25,
+          "memory_state": 0.55,
+          "external_grounding_ratio": 0.45
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T19:18:00Z",
+      "type": "correction",
+      "payload": {
+        "corrects_event_index": 3,
+        "correction_kind": "amend",
+        "summary": "Backfilled the durable contribution row with used_agent=codex, attempted_claude=true, fallback reason, model/effort, receipt handle, and output handle.",
+        "verifier": "state_get_jq_verification",
+        "lineage_delta": {
+          "live_source": 0.35,
+          "external_api": 0.35,
+          "memory_state": 0.3,
+          "external_grounding_ratio": 0.7
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T19:19:00Z",
+      "type": "memory_update",
+      "payload": {
+        "target": "playbooks/task-github-contribute.md#post-record-verification-gate + chronic-issues:github-contribute-coding-agent-skip",
+        "kind": "overwrite",
+        "summary": "Added a post-record gate requiring workers to read the just-created row and verify coding_agent.used_agent plus receipt linkage before wrap-up.",
+        "prior_value_hash": null,
+        "new_value_hash": null,
+        "verifier": "json_validation_and_jq_gate",
+        "lineage_profile": {
+          "live_source": 0.1,
+          "external_api": 0.1,
+          "memory_state": 0.8,
+          "external_grounding_ratio": 0.2
+        }
+      }
+    },
+    {
+      "ts": "2026-05-15T19:20:00Z",
+      "type": "outcome",
+      "payload": {
+        "kind": "drift",
+        "summary": "Delegation happened and the PR was valid, but the required receipt was stranded outside the durable row until a later audit backfilled it.",
+        "label": "omitted_evidence",
+        "contributing_labels": [
+          "false_completion"
+        ]
+      }
+    }
+  ]
+}
