@@ -1,0 +1,4719 @@
+{
+  "allowed_false_positives": [
+    {
+      "file": "CHECKLIST.md",
+      "line": 4,
+      "match_preview": "2026-06-03",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 5,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 17,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 18,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 19,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 20,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 21,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 22,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 23,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 24,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 25,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 26,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 30,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 31,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 32,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 33,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "CHECKLIST.md",
+      "line": 34,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 4,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 5,
+      "match_preview": "2026-06-03",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 6,
+      "match_preview": "2026-05-31",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 59,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 60,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 61,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 62,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 63,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 64,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 65,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 66,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 67,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 68,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 76,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 77,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 78,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 79,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "README.md",
+      "line": 80,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cover.md",
+      "line": 4,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cover.md",
+      "line": 6,
+      "match_preview": "2026-05-31",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 14,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 14,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 14,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 14,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 14,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 14,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 15,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 15,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 15,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 15,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 15,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "cross-run-index.jsonl",
+      "line": 15,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 59,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 65,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 71,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 77,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 83,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 89,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 95,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 101,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 107,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 113,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 119,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 125,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 131,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 137,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 143,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 164,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 166,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL or audit summary"
+    },
+    {
+      "file": "manifest.json",
+      "line": 171,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 173,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL or audit summary"
+    },
+    {
+      "file": "manifest.json",
+      "line": 186,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "manifest.json",
+      "line": 199,
+      "match_preview": "2026-05-31",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 4,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 22,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 23,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 32,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 53,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 97,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "native-jsonl-format.md",
+      "line": 104,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 6,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL or audit summary"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 11,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 13,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL or audit summary"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 64,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 69,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 74,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 79,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 84,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 89,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 94,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 99,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 104,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 109,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 114,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 119,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 124,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 129,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "sanitizer-audit-2026-05-31T201000Z.json",
+      "line": 134,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 3,
+      "match_preview": "2603.11768",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 9,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL or audit summary"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 9,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL or audit summary"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 1,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 2,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 2,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 3,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 3,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 4,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 4,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 5,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 5,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 6,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "line": 6,
+      "match_preview": "2026-04-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-04",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-12",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-04-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-04-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-20",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 12,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "line": 13,
+      "match_preview": "2026-05-14",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-15",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-19",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "line": 11,
+      "match_preview": "2026-05-16",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-17-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-17-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-22-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-22",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-11",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-24",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-26-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-26-1",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-26",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-17",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 1,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 2,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 3,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 4,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 5,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 6,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 7,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 8,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 9,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    },
+    {
+      "file": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "line": 10,
+      "match_preview": "2026-05-27",
+      "pattern": "phone_like",
+      "reason": "false positive: date or short numeric anchor, below 10 digits"
+    }
+  ],
+  "artifact_dir": "memory/artifacts/memevobench-native-pilot/",
+  "audit_id": "memevobench-native-pilot-sanitizer-audit-2026-05-31T233000Z",
+  "blocking_findings": [],
+  "checks": {
+    "current_audit_excluded": "excluded because it was being written",
+    "jsonl_parse": "included",
+    "manifest_included": true,
+    "patterns": [
+      "private_ipv4",
+      "staging_domain",
+      "email_address",
+      "phone_like",
+      "secret_assignment",
+      "ssh_private_key",
+      "credential_prefix",
+      "internal_path"
+    ],
+    "phone_like_rule": "candidate must contain at least 10 digits; shorter ISO dates are allowed false positives"
+  },
+  "created_at": "2026-05-31T23:30:00Z",
+  "files": [
+    {
+      "bytes": 3617,
+      "path": "CHECKLIST.md",
+      "sha256": "2d627a06ed73c0a7326eaaa61207c2ad0a6d75bc081c27c8517a693b4ac7dc53"
+    },
+    {
+      "bytes": 5791,
+      "path": "README.md",
+      "sha256": "e8fc50c2fd11f40548f2f5ac355f22e6c09ada6b05fea936aee970b452cd0108"
+    },
+    {
+      "bytes": 3999,
+      "path": "cover.md",
+      "sha256": "3d85596778e8a3b6177469455806ce6e9ee412635c8c4cebbe01afb5c3dec86d"
+    },
+    {
+      "bytes": 13834,
+      "path": "cross-run-index.jsonl",
+      "sha256": "afeb64cd64fc5c9237152945afde097432c7e111ddcbda40a7a64249cfa18eda"
+    },
+    {
+      "bytes": 7238,
+      "path": "manifest.json",
+      "sha256": "28ef1b70ea95da900579ac566bf8be5d31f2c50ccebe3531e4ff4cdad517d4a2"
+    },
+    {
+      "bytes": 9126,
+      "path": "native-jsonl-format.md",
+      "sha256": "98bd48856307ad45ed7793206ce7dd62fc1539b2c59bc6dd5bbc17c399bc5d57"
+    },
+    {
+      "bytes": 5401,
+      "path": "sanitizer-audit-2026-05-31T201000Z.json",
+      "sha256": "bc4d92b143d0360ca51c1592171799bc299637641a79dac1bf3236371e0ce1a8"
+    },
+    {
+      "bytes": 17969,
+      "path": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "sha256": "da3324546fa25b99ae9a94fd17bc8046f6bde3b423d8fd6261a5e5d85397879a"
+    },
+    {
+      "bytes": 18420,
+      "path": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "sha256": "a52a733796af03e660add3fed6a797a16098f302427ffd7b7fff6b1136fd3d80"
+    },
+    {
+      "bytes": 6958,
+      "path": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "sha256": "1b117735eb21bda1432c90285c0822b33910ded5bc9cdee3a635c1fd8bf998af"
+    },
+    {
+      "bytes": 21586,
+      "path": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "sha256": "bf7cb82b3c35968d33ee78f16a8cf8361eea4606f3766423cca6cd867003ab0a"
+    },
+    {
+      "bytes": 19215,
+      "path": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "sha256": "09881c9a6551cc70c2e395e9b8a358ed766162e32a1732561c8ec2b46e20a47b"
+    },
+    {
+      "bytes": 8119,
+      "path": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "sha256": "37d115d389ad93f36c974bb79e32016e366a862f7dbe92685eef86f4bff8ed21"
+    },
+    {
+      "bytes": 19741,
+      "path": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "sha256": "f1645eebc46217b950278717d02eb851cd43ede25bb8ec887e8a8780b86344b7"
+    },
+    {
+      "bytes": 9684,
+      "path": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "sha256": "64fd44a0b4e4b3eabacfd810937e682100b65a11ccbec7d693a340697bbbe53a"
+    },
+    {
+      "bytes": 21779,
+      "path": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "sha256": "d665903915b05f2d7233bbd13deae03b85b0dcddbea06a8aa3df1f603fed5fb3"
+    },
+    {
+      "bytes": 15918,
+      "path": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "sha256": "2f97d7069084f4deaaac3828af9b68726dd4d73b1bf59c51781768e92d96a47a"
+    },
+    {
+      "bytes": 19819,
+      "path": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "sha256": "118c918568df0b30d17088b2b98d49dc99cc7f4f39a23266d181ee713a04f90a"
+    },
+    {
+      "bytes": 16289,
+      "path": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "sha256": "64c56b3f095c3ecc715518a26d54c6d669a1ba48c111a0b589f6973febe61822"
+    },
+    {
+      "bytes": 16250,
+      "path": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "sha256": "ffb7c2ea1ae2e4e8ab07f452714ac602100039fd1177728117197de2097d4644"
+    },
+    {
+      "bytes": 11212,
+      "path": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "sha256": "a2e0581e3bc37cee9a5c62b6e61242381342d7cf812ed065157b9e3ea50726b1"
+    },
+    {
+      "bytes": 13662,
+      "path": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "sha256": "9ac49a331f84a31880a9ebf6399305f9edd65a112278918573749fe1200f70e3"
+    }
+  ],
+  "jsonl_errors": [],
+  "jsonl_parse": [
+    {
+      "path": "cross-run-index.jsonl",
+      "records": 15
+    },
+    {
+      "path": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "records": 12
+    },
+    {
+      "path": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "records": 10
+    },
+    {
+      "path": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "records": 8
+    },
+    {
+      "path": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "records": 13
+    },
+    {
+      "path": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "records": 11
+    },
+    {
+      "path": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "records": 6
+    },
+    {
+      "path": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "records": 10
+    },
+    {
+      "path": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "records": 10
+    },
+    {
+      "path": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "records": 13
+    },
+    {
+      "path": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "records": 9
+    },
+    {
+      "path": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "records": 11
+    },
+    {
+      "path": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "records": 9
+    },
+    {
+      "path": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "records": 10
+    },
+    {
+      "path": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "records": 9
+    },
+    {
+      "path": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "records": 10
+    }
+  ],
+  "result": "passed_zero_blocking_findings"
+}

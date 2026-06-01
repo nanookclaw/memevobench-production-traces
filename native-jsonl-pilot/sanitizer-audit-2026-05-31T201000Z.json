@@ -1,0 +1,150 @@
+{
+  "allowed_false_positives": [
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 9,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL"
+    },
+    {
+      "file": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "line": 9,
+      "match_preview": "4481593207",
+      "pattern": "phone_like",
+      "reason": "false positive: public GitHub issuecomment numeric anchor, retained as public provenance URL"
+    }
+  ],
+  "artifact_dir": "memory/artifacts/memevobench-native-pilot/",
+  "audit_id": "memevobench-native-pilot-sanitizer-audit-2026-05-31T201000Z",
+  "blocking_findings": [],
+  "checks": {
+    "jsonl_parse": "checked separately below",
+    "manifest_excluded": "manifest not yet written; this audit is the pre-manifest gate",
+    "patterns": [
+      "private_ipv4",
+      "staging_domain",
+      "email_address",
+      "phone_like",
+      "secret_assignment",
+      "ssh_private_key",
+      "credential_prefix",
+      "internal_path"
+    ]
+  },
+  "created_at": "2026-05-31T20:10:00Z",
+  "files": [
+    {
+      "bytes": 3617,
+      "path": "CHECKLIST.md",
+      "sha256": "31f712bc0131bd063731a7e6180e20c6290e78dbbdd527d9af44d945a91695e2"
+    },
+    {
+      "bytes": 5703,
+      "path": "README.md",
+      "sha256": "a3dcd83f926f2f90c0755fb608c0566d8ea27f6d81b220b9434ee659cd6a4903"
+    },
+    {
+      "bytes": 3936,
+      "path": "cover.md",
+      "sha256": "676c570a497df9b2fa9a9b98346f2b026e024a2c58a094e0b6f6d78cb7478e84"
+    },
+    {
+      "bytes": 13834,
+      "path": "cross-run-index.jsonl",
+      "sha256": "afeb64cd64fc5c9237152945afde097432c7e111ddcbda40a7a64249cfa18eda"
+    },
+    {
+      "bytes": 9126,
+      "path": "native-jsonl-format.md",
+      "sha256": "98bd48856307ad45ed7793206ce7dd62fc1539b2c59bc6dd5bbc17c399bc5d57"
+    },
+    {
+      "bytes": 17969,
+      "path": "trajectories/control/2026-05-11-mmp-reply-with-uncertainty.jsonl",
+      "sha256": "da3324546fa25b99ae9a94fd17bc8046f6bde3b423d8fd6261a5e5d85397879a"
+    },
+    {
+      "bytes": 18420,
+      "path": "trajectories/control/2026-05-11-outreach-state-alignment-audit.jsonl",
+      "sha256": "a52a733796af03e660add3fed6a797a16098f302427ffd7b7fff6b1136fd3d80"
+    },
+    {
+      "bytes": 6958,
+      "path": "trajectories/control/2026-05-12-ssgm-outreach-verified.jsonl",
+      "sha256": "1b117735eb21bda1432c90285c0822b33910ded5bc9cdee3a635c1fd8bf998af"
+    },
+    {
+      "bytes": 21586,
+      "path": "trajectories/control/2026-05-17-loom-179-receipt-and-verify.jsonl",
+      "sha256": "bf7cb82b3c35968d33ee78f16a8cf8361eea4606f3766423cca6cd867003ab0a"
+    },
+    {
+      "bytes": 19215,
+      "path": "trajectories/control/2026-05-17-matcha-1301-merged.jsonl",
+      "sha256": "09881c9a6551cc70c2e395e9b8a358ed766162e32a1732561c8ec2b46e20a47b"
+    },
+    {
+      "bytes": 8119,
+      "path": "trajectories/failed/2026-04-22-fabricated-zenodo-doi.jsonl",
+      "sha256": "37d115d389ad93f36c974bb79e32016e366a862f7dbe92685eef86f4bff8ed21"
+    },
+    {
+      "bytes": 19741,
+      "path": "trajectories/failed/2026-05-04-phantom-email-followups.jsonl",
+      "sha256": "f1645eebc46217b950278717d02eb851cd43ede25bb8ec887e8a8780b86344b7"
+    },
+    {
+      "bytes": 9684,
+      "path": "trajectories/failed/2026-05-12-state-desync-after-partial-run.jsonl",
+      "sha256": "64fd44a0b4e4b3eabacfd810937e682100b65a11ccbec7d693a340697bbbe53a"
+    },
+    {
+      "bytes": 21779,
+      "path": "trajectories/failed/2026-05-14-stale-arf-repo-target.jsonl",
+      "sha256": "d665903915b05f2d7233bbd13deae03b85b0dcddbea06a8aa3df1f603fed5fb3"
+    },
+    {
+      "bytes": 15918,
+      "path": "trajectories/failed/2026-05-15-coding-agent-receipt-omitted.jsonl",
+      "sha256": "2f97d7069084f4deaaac3828af9b68726dd4d73b1bf59c51781768e92d96a47a"
+    },
+    {
+      "bytes": 19819,
+      "path": "trajectories/failed/2026-05-16-disk-cleanup-false-success.jsonl",
+      "sha256": "118c918568df0b30d17088b2b98d49dc99cc7f4f39a23266d181ee713a04f90a"
+    },
+    {
+      "bytes": 16289,
+      "path": "trajectories/failed/2026-05-22-task-rotation-mirror-drift.jsonl",
+      "sha256": "64c56b3f095c3ecc715518a26d54c6d669a1ba48c111a0b589f6973febe61822"
+    },
+    {
+      "bytes": 16250,
+      "path": "trajectories/failed/2026-05-24-disk-cleanup-band-threshold-recurrence.jsonl",
+      "sha256": "ffb7c2ea1ae2e4e8ab07f452714ac602100039fd1177728117197de2097d4644"
+    },
+    {
+      "bytes": 11212,
+      "path": "trajectories/failed/2026-05-26-github-probe-field-error.jsonl",
+      "sha256": "a2e0581e3bc37cee9a5c62b6e61242381342d7cf812ed065157b9e3ea50726b1"
+    },
+    {
+      "bytes": 13662,
+      "path": "trajectories/failed/2026-05-27-github-contributions-number-field-drift.jsonl",
+      "sha256": "9ac49a331f84a31880a9ebf6399305f9edd65a112278918573749fe1200f70e3"
+    }
+  ],
+  "notes": [
+    {
+      "kind": "public_provenance",
+      "text": "Public GitHub PR/comment/issue URLs and public Zenodo/Nostr identifiers are allowed by README sanitization rules; private/operator/system details remain disallowed."
+    }
+  ],
+  "result": "PASS",
+  "scope": {
+    "bytes_scanned": 272837,
+    "files_scanned": 20,
+    "included": "all files under artifact dir except prior sanitizer-audit-* files and manifest.json"
+  }
+}
