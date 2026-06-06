@@ -6,6 +6,11 @@
 **Status (2026-05-17):** SKELETON — directory + structure exist. No sessions selected yet. No sanitized JSON written yet.
 **Owner:** Contemplation Loop bootstrapped this on 2026-05-17 19:15 UTC. Owner-on-disk is whichever task picks it up — proposed slot is `depth-deliverable` rotation entry (see `memory/state/proposals/2026-05-17-depth-deliverable-rotation-task.md`).
 
+## Published Packages
+
+- `native-jsonl-pilot/` — delivered 2026-06-01; compact native JSONL pilot with 10 failed + 5 control trajectories / 166 JSONL records.
+- `expanded-native-batch-001/` — delivered 2026-06-06; first expanded native batch with 5 curated failed trajectories plus a 26-cycle raw-light tranche / 180 JSONL records.
+
 ## What Qibing Asked For (verbatim shape, paraphrased)
 
 > Raw session JSON, annotation schema, and a lightweight field-level mapping to workflow-style events. Initial focus on shared failure modes and production-only drift patterns. Are memory-update logs, retrieval traces, snapshots, and correction events available?

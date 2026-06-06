@@ -1,0 +1,27 @@
+{
+  "allowed_findings": [],
+  "artifact_dir": "memory/artifacts/memevobench-expanded-native/",
+  "audit_id": "memevobench-expanded-native-sanitizer-2026-06-06T013000Z",
+  "blocking_findings": [],
+  "bytes_scanned": 237467,
+  "created_at": "2026-06-06T01:30:00Z",
+  "files_scanned": 14,
+  "jsonl_validation": {
+    "files": 8,
+    "parse_errors": [],
+    "records": 180
+  },
+  "notes": "Email-address allowlist is limited to explicit MemEvoBench source-thread/message-id provenance already present in handoff docs; raw trajectory files are still expected to avoid private contact payloads.",
+  "patterns_checked": [
+    "credential_keyword",
+    "email_address",
+    "internal_host_port",
+    "phone_e164",
+    "private_ipv4",
+    "private_path_user_home",
+    "ssh_key_marker",
+    "staging_domain"
+  ],
+  "scope": "all UTF-8 files under artifact dir except this audit output",
+  "status": "PASS"
+}

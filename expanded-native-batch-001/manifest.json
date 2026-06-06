@@ -1,0 +1,187 @@
+{
+  "artifact_dir": "memory/artifacts/memevobench-expanded-native/",
+  "contents_summary": {
+    "cross_run_index_records": 5,
+    "curated_failed_trajectories": 5,
+    "format_docs": [
+      "README.md",
+      "expanded-native-format.md",
+      "inventory/batch-001-inventory.md",
+      "inventory/raw-light-sampling-plan.md",
+      "cover.md"
+    ],
+    "jsonl_files": 8,
+    "jsonl_records_total": 180,
+    "optional_controls_included": false,
+    "optional_controls_reason": "Omitted for Batch 001 because the recipient prioritized raw/native volume, and no already-sanitized matched control was needed to interpret this first package.",
+    "raw_light_cycle_summaries": 26,
+    "raw_light_native_order_summary_events": 104,
+    "raw_light_tranches": 1
+  },
+  "created_at": "2026-06-06T04:30:00Z",
+  "files": [
+    {
+      "bytes": 3451,
+      "path": "CHECKLIST.md",
+      "sha256": "4622ebd6a57c745de45c430642a33cbf804dbfb4c322e9c8c77746810b665660"
+    },
+    {
+      "bytes": 6535,
+      "path": "README.md",
+      "sha256": "bd6b29e3d74242f76ba4e58a3fbf3f09f15c1bb373e94c0a5d909ff3eaed5971"
+    },
+    {
+      "bytes": 4133,
+      "path": "cover.md",
+      "sha256": "cbe5a5910c37a6fc0316f44a17e7409d8eb7ac09aaefc18fa0f7ec018cb21122"
+    },
+    {
+      "bytes": 5599,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 5,
+      "path": "cross-run-index.jsonl",
+      "sha256": "4d49da8a88bed308eadf111ba7878d56a91fe5ed85dcfce48b7512506f981bf5"
+    },
+    {
+      "bytes": 6837,
+      "path": "expanded-native-format.md",
+      "sha256": "b40c9f9df81a127527b2e368c5d27fd49a5ab96b2a8f7a8007beeb2c6276dd12"
+    },
+    {
+      "bytes": 5852,
+      "path": "inventory/batch-001-inventory.md",
+      "sha256": "4499653a5d09acc02e320bee3b23c948630e56832e35bfca1cbdcd09e1ddd078"
+    },
+    {
+      "bytes": 8370,
+      "path": "inventory/raw-light-sampling-plan.md",
+      "sha256": "c8f1c0249e97495541e1a0009924dce77696143e7c11f27084acb505edf0eef9"
+    },
+    {
+      "bytes": 76043,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 104,
+      "path": "raw-light/first-tranche-2026-06-05.jsonl",
+      "sha256": "bb8778f4d001c51fb06752ab0427b0c7f9ecd8a1fd680ff4121fc744f6d36c75"
+    },
+    {
+      "bytes": 18987,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 26,
+      "path": "raw-light/index.jsonl",
+      "sha256": "1717169a90f87648f4b027566237a560fc22130aed7ac7dad2d8771a0220019d"
+    },
+    {
+      "bytes": 898,
+      "path": "sanitizer/sanitizer-audit-2026-06-06T013000Z.json",
+      "sha256": "53a00ecd398a0c2c6b9bda2858a26d8aab94ea602740b4fb4d29c4beb76d2d91"
+    },
+    {
+      "bytes": 19776,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 9,
+      "path": "trajectories/failed/2026-05-29-shell-markdown-mutation.jsonl",
+      "sha256": "ddf0338e4358ba4fe3723fbaf76795804c5fbeef3f6f315e57d2b0535c3062d3"
+    },
+    {
+      "bytes": 18459,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 9,
+      "path": "trajectories/failed/2026-06-01-zenodo-timeout-false-dead.jsonl",
+      "sha256": "621a5a4d11855492475810415137345958ad3873cd6f3aa79d2ec3698f575739"
+    },
+    {
+      "bytes": 21104,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 9,
+      "path": "trajectories/failed/2026-06-02-nostr-empty-relay-false-dead.jsonl",
+      "sha256": "5b736ddf946f1a6a9c09aac7fee937249bf82adaab469ce6447f6d99cc764db0"
+    },
+    {
+      "bytes": 20733,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 9,
+      "path": "trajectories/failed/2026-06-03-empty-state-db-stubs.jsonl",
+      "sha256": "f097e73a97f8c01fe9e8ec12a0fac14545fe136984a7779d385aec0b6753a414"
+    },
+    {
+      "bytes": 21648,
+      "jsonl_parse_errors": [],
+      "jsonl_records": 9,
+      "path": "trajectories/failed/2026-06-03-workloop-provider-no-response.jsonl",
+      "sha256": "4f6e6e50f31ee20b98e6dd28f5b046a8c3c8ad148d64f95770b1bbdfee821244"
+    }
+  ],
+  "package": "memevobench-expanded-native",
+  "package_status": "package_complete_ready_to_send",
+  "recipient": "Weiwei Xie / Qibing Ren (MemEvoBench)",
+  "sanitization": {
+    "allowed_findings": [],
+    "audit_id": "memevobench-expanded-native-sanitizer-2026-06-06T013000Z",
+    "audit_path": "sanitizer/sanitizer-audit-2026-06-06T013000Z.json",
+    "blocking_findings": [],
+    "bytes_scanned": 237467,
+    "files_scanned": 14,
+    "patterns_checked": [
+      "credential_keyword",
+      "email_address",
+      "internal_host_port",
+      "phone_e164",
+      "private_ipv4",
+      "private_path_user_home",
+      "ssh_key_marker",
+      "staging_domain"
+    ],
+    "status": "PASS"
+  },
+  "source_thread": {
+    "channel": "AgentMail",
+    "request_summary": "Expanded native sanitized exports after the pilot, prioritizing more raw/native trajectories and broader raw-light volume over polished matched controls.",
+    "thread_id": "0a3a7aad-7b4d-4edf-9659-f101567e32ed"
+  },
+  "validation": {
+    "all_jsonl_parse_clean": true,
+    "jsonl_files": [
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 5,
+        "path": "cross-run-index.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 104,
+        "path": "raw-light/first-tranche-2026-06-05.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 26,
+        "path": "raw-light/index.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 9,
+        "path": "trajectories/failed/2026-05-29-shell-markdown-mutation.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 9,
+        "path": "trajectories/failed/2026-06-01-zenodo-timeout-false-dead.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 9,
+        "path": "trajectories/failed/2026-06-02-nostr-empty-relay-false-dead.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 9,
+        "path": "trajectories/failed/2026-06-03-empty-state-db-stubs.jsonl"
+      },
+      {
+        "jsonl_parse_errors": [],
+        "jsonl_records": 9,
+        "path": "trajectories/failed/2026-06-03-workloop-provider-no-response.jsonl"
+      }
+    ]
+  }
+}
